@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import {categories , sizes} from '../data/SideData';
+import './Slider.css';
 
 const MIN = 0;
 const MAX = 500;
@@ -135,7 +136,7 @@ function Sidebar() {
           </div>
         </div>
             
- <h2 className='font-bold text-lg'>Size</h2>
+        <h2 className='font-bold text-lg'>Size</h2>
         <ul>
             {sizes.map(size => (
                
@@ -146,6 +147,11 @@ function Sidebar() {
 
             ))}
             </ul>
+            <div className='linear-gradient flex items-center justify-center flex-col gap-4 mt-10 p-6 rounded-md text-white text-center'>
+                <h1 className='font-mono text-4xl space-x-1 font-bold'>Super Sale</h1>
+                <p>Up to 50% off on selected plants! </p>
+                <img src="/plants/p8.png" alt="" />
+            </div>
     </div>
   )
 }

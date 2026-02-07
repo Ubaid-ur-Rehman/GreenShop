@@ -7,7 +7,7 @@ export const heroSlides = [
     description:
       "We are an online plant shop offering a wide range of affordable and trendy plants to create your own urban jungle.",
     buttonText: "Shop Now",
-    image: "/plantl.png",
+    image: "/plants/p8.png",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const heroSlides = [
     description:
       "Discover beautiful indoor plants that improve air quality and add life to your living space.",
     buttonText: "Explore Plants",
-    image: "/plantl.png",
+    image: "/plants/p8.png",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const heroSlides = [
     description:
       "From low-maintenance plants to rare varieties, we have everything you need for green living.",
     buttonText: "View Collection",
-    image: "/plantl.png",
+    image: "/plants/p8.png",
   },
   {
     id: 4,
@@ -37,6 +37,6 @@ export const heroSlides = [
     description:
       "Stylish plants and planters designed to match modern homes and workspaces.",
     buttonText: "Get Started",
-    image: "/plantl.png",
+    image: "/plants/p8.png",
   },
 ];
