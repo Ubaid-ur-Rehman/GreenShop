@@ -12,7 +12,7 @@ export default function Slider() {
     <Swiper
       modules={[Pagination]}
       pagination={{ clickable: true }}
-      className="w-full"
+      className="w-full bg-gray-50"
     >
       {heroSlides.map((slide, index) => (
         <SwiperSlide key={index}>

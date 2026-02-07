@@ -1,4 +1,5 @@
 import './App.css'
+import Details from './Components/Details'
 import Header from './Components/Header'
 import MainContent from './Components/MainContent'
 import Slider from './Components/Slider'
@@ -10,6 +11,7 @@ function App() {
      <Header />
      <Slider />
      <MainContent />
+     <Details />
     </div>
   )
 }
